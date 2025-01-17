@@ -57,9 +57,9 @@ a {
   padding: 16px;
 }
 
-.footer {
-  background: #eee;
-}
+  .footer {
+    background: #eee;
+  }
 
 ul {
   display: flex;
