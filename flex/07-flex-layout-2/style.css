@@ -8,6 +8,7 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  
 }
 
 .footer {
@@ -26,4 +27,61 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* My Solution */
+
+.header{
+  font-weight: 900;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.tw{
+  display: flex;
+  flex: 1;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.sidebar{
+  display: flex;
+  /* flex-basis: 300px; */
+  padding: 16px;
+}
+
+.cd{
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+.card{
+  padding: 16px;
+  width: 300px;
+  margin: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
